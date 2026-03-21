@@ -104,7 +104,7 @@ FontGamma:                             2.2
 # folder or the full path to a ttf file.
 # Only supports fixed width fonts.
 # Valid values: font
-EditorFont:                            JetBrains Mono Medium
+EditorFont:                            JetBrainsMono NFM
 
 # The font size for all text editor windows
 EditorFontSize:                        12.0
@@ -137,7 +137,7 @@ OutputPanelFontSize:                   default
 StatusBarFont:                         default
 
 # The font size for the status bar. Set to default to use the UIFontSize setting
-StatusBarFontSize:                     default
+StatusBarFontSize:                     auto
 
 # Extra spacing between lines
 VerticalLineGap:                       1
@@ -151,7 +151,7 @@ VerticalLineGap:                       1
 UIScale:                               auto
 
 # The current color scheme for all UI elements. Can be 'default'
-ColorScheme:                           Sunset
+ColorScheme:                           Brassica
 
 # Hide the main menu when not in use. Mouse Over to make visible.
 HideMainMenu:                          false
@@ -357,7 +357,7 @@ TabWidth:                              4
 
 # Whether lines should be indented with tabs or spaces
 # Valid values: Tabs, Spaces
-IndentMode:                            Tabs
+IndentMode:                            Spaces
 
 # If IndentMode is set to spaces backspace will delete TabWidth spaces
 BackspaceDeletesTabs:                  false

@@ -18,3 +18,20 @@ Extensions:					*
 #----------------------------------------------
 # colour rules
 
+Language.Warning: 
+WORD(WARNING)
+
+Language.Todo: 
+WORD(TODO)
+
+Language.Fixme: 
+WORD(FIXME)
+
+Language.Important: 
+WORD(IMPORTANT)
+
+Language.Note: 
+WORD(NOTE)
+
+Language.Hardcoded: 
+WORD(HARDCODED)

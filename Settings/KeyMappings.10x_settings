@@ -75,7 +75,7 @@ Control D:                   SelectNextMultiCursor
 Control Shift D:             UndoSelectNextMultiCursor
 
 # Select all of the find results with multiple cursors
-Control Shift Alt J:         SelectAllOccurrences
+Shift Alt D:                 SelectAllOccurrences
 
 # Add a new cursor at the current mouse pos
 Control MouseMiddleButton:   AddCursorAtMousePos
@@ -204,7 +204,7 @@ Control Tab:                 ShowSwitchPanelPanel
 Control Shift Tab:           ShowSwitchPanelPrevItem
 
 # Duplicate the current panel
-Shift Alt D:                 DuplicatePanel
+Control Shift Alt D:                 DuplicatePanel
 
 # Duplicate the current panel and move to the left
 Alt Comma:                   DuplicatePanelLeft
@@ -548,3 +548,11 @@ Control Shift F:             Search
 # Open new search panel
 Control Shift A:             NewSearchPanel
 
+# Checkbox tools
+Alt X:                       ToggleCheckbox
+
+# Remove Checkbox
+Alt l:                       RemoveCheckbox
+
+# Open my todos.md
+Shift Alt T:                 OpenTODO

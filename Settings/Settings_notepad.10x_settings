@@ -35,7 +35,7 @@ InternetSearchCommand:                 https://www.google.com/search?q=
 AutosaveWorkspace:                     false
 
 # Open the previously opened files on startup when no workspace is open
-RememberOpenFiles:                     true
+RememberOpenFiles:                     false
 
 # If true then it won't prompt to save unsaved files and they will be restored on restart
 RestoreUnsavedFiles:                   true
@@ -151,7 +151,7 @@ VerticalLineGap:                       1
 UIScale:                               auto
 
 # The current color scheme for all UI elements. Can be 'default'
-ColorScheme:                           Sunset
+ColorScheme:                           Brassica
 
 # Hide the main menu when not in use. Mouse Over to make visible.
 HideMainMenu:                          false
@@ -255,7 +255,7 @@ ReplaceTextInitialValue:               Current
 SmoothScroll:                          true
 
 # Speed of the smooth scroll interpolation
-SmoothScrollSpeed:                     50
+SmoothScrollSpeed:                     80
 
 # The width of the map scroll bar
 MapScrollBarWidth:                     60

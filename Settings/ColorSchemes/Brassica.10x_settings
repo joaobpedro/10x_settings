@@ -125,7 +125,7 @@ Editor.Cursor:                                    144, 237, 142
 Editor.Current Line:                              7, 47, 47
 
 # Background colour of selected text
-Editor.Selection Back:                            default
+Editor.Selection Back:                            0, 0, 255
 
 # Foreground colour of selected text. Use 'default' for no foreground colour.
 Editor.Selection Fore:                            default
@@ -251,7 +251,7 @@ Html.Operator:                                    200, 200, 200
 10x.Setting.False:                                255, 0, 0
 
 # Text editor text colour
-Language.Text:                                    217, 205, 186
+Language.Text:                                    217, 100, 186
 
 # Text editor background colour
 Language.Background:                              8, 38, 40
@@ -371,7 +371,7 @@ Language.Custom9:                                 154, 197, 209
 Language.Custom10:                                214, 113, 113
 
 # Document Heading
-Language.Heading:                                 255, 128, 0
+Language.Heading:                                 230, 255, 242
 
 # Bold text
 Language.Bold:                                    120, 180, 255
@@ -383,7 +383,7 @@ Language.Italic:                                  255, 255, 0
 Language.Blockquote:                              255, 200, 170
 
 # Document list item
-Language.ListItem:                                255, 255, 160
+Language.ListItem:                                192, 199, 146
 
 # Url Link
 Language.Link:                                    100, 100, 255
@@ -394,3 +394,14 @@ Language.CodeBlock:                               150, 255, 255
 # 10x settings file keywords
 10x.Setting.Keyword:                              164, 187, 255
 
+Language.Warning:								  255, 140, 0
+
+Language.Todo:									  255, 140, 0
+
+Language.Fixme:                                   237, 41, 57
+
+Language.Note:                                    0, 191, 255
+
+Language.Hardcoded:								  0, 191, 255
+
+Language.Important: 							  237, 41, 57
