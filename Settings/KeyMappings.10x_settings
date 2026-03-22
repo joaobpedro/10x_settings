@@ -15,7 +15,7 @@ Control S:                   SaveFile
 Control S, Control S:        SaveAll
 
 # Show the Find File panel
-Shift Alt O:                 FindFile
+Alt .:                 FindFile
 
 # Create a new text file
 Control N:                   NewTextFile
@@ -210,7 +210,7 @@ Control Shift Alt D:                 DuplicatePanel
 Alt Comma:                   DuplicatePanelLeft
 
 # Duplicate the current panel and move to the right
-Alt .:                       DuplicatePanelRight
+Alt Control Shift ., .:                       DuplicatePanelRight
 
 # Open the current file for edit in Perforce
 Control P, Control E:        PerforceOpenForEdit

@@ -18,7 +18,7 @@ def FormatMarkdownTables():
     while i < len(lines):
         line_strip = lines[i].strip()
         # Basic check for a markdown table line
-        if line_strip.startswith('|') and line_strip.endswith('|'):
+        if line_strip.startswith('|') and line_strip.endswith('|') and len(line) > 1 :
             table_rows = []
             # Gather all consecutive table lines
             while i < len(lines) and lines[i].strip().startswith('|'):
