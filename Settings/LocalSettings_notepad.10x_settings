@@ -24,7 +24,7 @@ DiffExe:                  p4merge <file1> <file2>
 
 # The source control to use
 # Valid values: None, Perforce, Git, SVN
-SourceControl:            Perforce
+SourceControl:            Git
 
 # Server address for the perforce server, eg: 127.0.0.1:1666
 # Valid values: ip:port
@@ -47,4 +47,7 @@ PerforceEnableP4Config:   true
 
 # The command to use to diff a file. <file> is replace with the current file path
 SVNDiffCommand:           "C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:diff /path:"<file>"
+
+CursorMode:                            Line
+
 

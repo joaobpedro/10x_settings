@@ -405,3 +405,6 @@ Language.Note:                                    0, 191, 255
 Language.Hardcoded:								  0, 191, 255
 
 Language.Important: 							  237, 41, 57
+
+# this is notes for myself
+Language.JPE: 							          223, 197, 254
