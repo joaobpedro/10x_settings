@@ -15,7 +15,7 @@ Control S:                   SaveFile
 Control S, Control S:        SaveAll
 
 # Show the Find File panel
-Alt .:                 FindFile
+Control Shift O:             FindFile
 
 # Create a new text file
 Control N:                   NewTextFile
@@ -336,7 +336,7 @@ Control Shift R:             RecordKeySequence
 Control Shift P:             PlaybackKeySequence
 
 # Show the execute command text box
-Control Shift X:             ShowCommandPanel
+Alt P:                       ShowCommandPanel
 
 # Toggle bookmark for current line
 Control F2:                  ToggleBookmark
@@ -489,16 +489,16 @@ Control Shift .:             ZoomIn
 Control Shift Comma:         ZoomOut
 
 # Toggle fullscreen
-Alt Enter:                   ToggleFullscreen
+#Alt Enter:                   ToggleFullscreen
 
 # Toggle focus mode
-Control Alt Enter:           ToggleFocusMode
+#Control Alt Enter:           ToggleFocusMode
 
 # Toggle fullscreen focus mode
-Shift Alt Enter:             ToggleFullScreenFocusMode
+#Shift Alt Enter:             ToggleFullScreenFocusMode
 
 # Open the current file at the current line in the debugger
-Alt X:                       OpenCurrentFileInDebugger
+#Alt X:                       OpenCurrentFileInDebugger
 
 # Toggle between the source .cpp and .h header file
 Alt O:                       CppParser.ToggleSourceHeader
@@ -556,3 +556,7 @@ Alt l:                       RemoveCheckbox
 
 # Open my todos.md
 Shift Alt T:                 OpenTODO
+
+Alt Enter:                   JumpToMarkdownLink
+
+Alt Shift Enter:             JumpBack

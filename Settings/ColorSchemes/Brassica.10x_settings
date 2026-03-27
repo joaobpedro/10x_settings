@@ -280,14 +280,7 @@ Language.Type:                                    167, 219, 188
 # Preprocessor
 Language.Preprocessor:                            195, 247, 178
 
-# Comment
-Language.Comment:                                 96, 205, 113
 
-# Doc Comment
-Language.DocComment:                              default
-
-# Block comment
-Language.BlockComment:                            default
 
 # {}
 Language.Brace:                                   227, 219, 204
@@ -405,3 +398,12 @@ Language.Note:                                    0, 191, 255
 Language.Hardcoded:								  0, 191, 255
 
 Language.Important: 							  237, 41, 57
+
+# Comment
+Language.Comment:                                 96, 205, 113
+
+# Doc Comment
+Language.DocComment:                              default
+
+# Block comment
+Language.BlockComment:                            default
