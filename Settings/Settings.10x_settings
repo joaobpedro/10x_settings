@@ -170,7 +170,7 @@ ToggleMainMenuOnAlt:                   true
 
 # How to show the workspace in the title bar if the menu is hidden (None, Name, Path)
 # Valid values: None, Name, Path, FolderAndName
-WorkspaceTextInTitleBar:               Name
+WorkspaceTextInTitleBar:               None
 
 # How to name the window from the workspace (Name, Path)
 # Valid values: Name, Path, FolderAndName
@@ -380,7 +380,7 @@ UpdateIndentsOnPaste:                  true
 MultiCursorPasteMode:                  Lines
 
 # When creating a new line add tabs or spaces to the current indentation depth
-ExtendEmptyLines:                      false
+ExtendEmptyLines:                      true
 
 # The default WordWrap setting when opening files
 WordWrap:                              false
@@ -434,10 +434,10 @@ Vim:                                   false
 AutoFormat:                            true
 
 # Automatically add a close brace after typing an open brace
-AutoAddCloseBrace:                     false
+AutoAddCloseBrace:                     true
 
 # Automatically add a close brace and format the braces
-AutoAddCloseBraceAndFormat:            false
+AutoAddCloseBraceAndFormat:            true
 
 # If true the open brace will be moved to the next line on auto-format
 OpenBraceOnNewLine:                    true
@@ -452,7 +452,7 @@ AutoIndentBraces:                      true
 FormatBracesOnEnterSplit:              false
 
 # Automatically add a close bracket after typing an open bracket
-AutoAddCloseBracket:                   false
+AutoAddCloseBracket:                   true
 
 # Align function arguments lines to the function open bracket
 BracketAlignFunctionArgs:              true
@@ -502,10 +502,10 @@ FormatExcludeList:
 # 
 
 # Attempt to checkout the file when it's edited
-PerforceOpenForEditOnEdit:             true
+PerforceOpenForEditOnEdit:             false
 
 # Attempt to checkout the file when it's saved
-PerforceOpenForEditOnSave:             true
+PerforceOpenForEditOnSave:             false
 
 # 
 # Build

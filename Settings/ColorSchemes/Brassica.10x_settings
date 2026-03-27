@@ -167,7 +167,7 @@ Editor.DebuggerStepLine:                          default
 Editor.StatusBarColour:                           default
 
 # Status bar text colour
-Editor.StatusBarTextColour:                       default
+Editor.StatusBarTextColour:                       228, 216, 174
 
 # Status bar colour while debugging
 Editor.DebuggingStatusBarColour:                  default
@@ -280,14 +280,7 @@ Language.Type:                                    167, 219, 188
 # Preprocessor
 Language.Preprocessor:                            195, 247, 178
 
-# Comment
-Language.Comment:                                 96, 205, 113
 
-# Doc Comment
-Language.DocComment:                              default
-
-# Block comment
-Language.BlockComment:                            default
 
 # {}
 Language.Brace:                                   227, 219, 204
