@@ -399,11 +399,5 @@ Language.Hardcoded:								  0, 191, 255
 
 Language.Important: 							  237, 41, 57
 
-# Comment
-Language.Comment:                                 96, 205, 113
-
-# Doc Comment
-Language.DocComment:                              default
-
-# Block comment
-Language.BlockComment:                            default
+# this is notes for myself
+Language.JPE: 							          223, 197, 254

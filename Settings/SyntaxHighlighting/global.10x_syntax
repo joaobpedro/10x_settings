@@ -35,3 +35,6 @@ WORD(NOTE)
 
 Language.Hardcoded: 
 WORD(HARDCODED)
+
+Language.JPE:
+WORD(JPE)
