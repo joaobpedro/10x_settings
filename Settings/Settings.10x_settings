@@ -151,7 +151,7 @@ VerticalLineGap:                       1
 UIScale:                               auto
 
 # The current color scheme for all UI elements. Can be 'default'
-ColorScheme:                           Brassica
+ColorScheme:                           Moriarty
 
 # Hide the main menu when not in use. Mouse Over to make visible.
 HideMainMenu:                          false
@@ -199,7 +199,7 @@ ToggleBreakpointsWithMouse:            true
 
 # Cursor blink rate. Time in ms between blinks. Can be set to auto to use the OS blick rate. Set to 0 to disable.
 # Valid values: int, auto
-CursorBlinkRate:                       auto
+CursorBlinkRate:                       0
 
 # Ctrl+tab switch file mode. Can be set to all files or restricted to files open in the current panel
 # Valid values: All, Panel
@@ -306,13 +306,13 @@ MouseWheelScrollStep:                  3
 # True to open files in the column specified by the Column0Presets, Column1Presets, Column2Presets settings
 UseColumnPresets:                      true
 
-# File wildcards for files that should automatically open in column 0. Separated by commas.
-# Valid values: wildcard list (comma separated)
-Column0Presets:                        *.c,*.cc,*.cpp,*.c++,*.cp,*.cxx
-
 # File wildcards for files that should automatically open in column 1. Separated by commas.
 # Valid values: wildcard list (comma separated)
-Column1Presets:                        *.h,*.hh,*.hpp,*.h++,*.hp,*.hxx,*.inl
+Column0Presets:                        *.h,*.hh,*.hpp,*.h++,*.hp,*.hxx,*.inl
+
+# File wildcards for files that should automatically open in column 0. Separated by commas.
+# Valid values: wildcard list (comma separated)
+Column1Presets:                        *.c,*.cc,*.cpp,*.c++,*.cp,*.cxx
 
 # File wildcards for files that should automatically open in column 2. Separated by commas.
 # Valid values: wildcard list (comma separated)
@@ -350,7 +350,7 @@ SelectNextWordMode:                    WordStart
 
 # How to display the cursor (caret) in the text editor. Values: (Line, Block, Underscore)
 # Valid values: Line, Block, Underscore, HalfBlock
-CursorMode:                            Line
+CursorMode:                            Block
 
 # Width of a tab in chars
 TabWidth:                              4
