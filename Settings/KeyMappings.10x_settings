@@ -15,7 +15,7 @@ Control S:                   SaveFile
 Control S, Control S:        SaveAll
 
 # Show the Find File panel
-Shift Control O:                 FindFile
+Control Shift O:             FindFile
 
 # Create a new text file
 Control N:                   NewTextFile
@@ -210,7 +210,7 @@ Control Shift Alt D:                 DuplicatePanel
 Alt Comma:                   DuplicatePanelLeft
 
 # Duplicate the current panel and move to the right
-Alt .:                       DuplicatePanelRight
+Alt Control Shift ., .:                       DuplicatePanelRight
 
 # Open the current file for edit in Perforce
 Control P, Control E:        PerforceOpenForEdit
@@ -336,7 +336,7 @@ Control Shift R:             RecordKeySequence
 Control Shift P:             PlaybackKeySequence
 
 # Show the execute command text box
-Alt P:             ShowCommandPanel
+Alt P:                       ShowCommandPanel
 
 # Toggle bookmark for current line
 Control F2:                  ToggleBookmark
@@ -498,7 +498,7 @@ Control Shift Comma:         ZoomOut
 # Shift Alt Enter:             ToggleFullScreenFocusMode
 
 # Open the current file at the current line in the debugger
-Alt X:                       OpenCurrentFileInDebugger
+#Alt X:                       OpenCurrentFileInDebugger
 
 # Toggle between the source .cpp and .h header file
 Alt O:                       CppParser.ToggleSourceHeader
