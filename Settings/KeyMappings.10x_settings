@@ -336,7 +336,7 @@ Control Shift R:             RecordKeySequence
 Control Shift P:             PlaybackKeySequence
 
 # Show the execute command text box
-Control Shift X:             ShowCommandPanel
+Alt P:             ShowCommandPanel
 
 # Toggle bookmark for current line
 Control F2:                  ToggleBookmark
