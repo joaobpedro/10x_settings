@@ -113,7 +113,7 @@ UI.SavedLine:                                     default
 TreeNodeText:                                     200, 200, 200
 
 # Default text colour for all text editor windows
-Editor.Text:                                      255, 255, 255
+Editor.Text:                                      240, 240, 220
 
 # Default background colour for all text editor windows
 Editor.Background:                                0, 0, 0
@@ -326,7 +326,7 @@ Language.Enum:                                    255, 218, 130
 Language.Enum Value:                              255, 232, 199
 
 # Variable
-Language.Variable:                                255, 251, 245
+Language.Variable:                                240, 240, 220
 
 # Member Variable
 Language.MemberVariable:                          255, 232, 199
