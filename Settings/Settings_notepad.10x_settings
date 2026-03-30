@@ -151,7 +151,7 @@ VerticalLineGap:                       1
 UIScale:                               auto
 
 # The current color scheme for all UI elements. Can be 'default'
-ColorScheme:                           Brassica
+ColorScheme:                           Moriarty
 
 # Hide the main menu when not in use. Mouse Over to make visible.
 HideMainMenu:                          false
@@ -350,7 +350,7 @@ SelectNextWordMode:                    WordStart
 
 # How to display the cursor (caret) in the text editor. Values: (Line, Block, Underscore)
 # Valid values: Line, Block, Underscore, HalfBlock
-CursorMode:                            Line
+CursorMode:                            Block
 
 # Width of a tab in chars
 TabWidth:                              4
